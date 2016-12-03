@@ -4,6 +4,8 @@
 
 See [next-ver](https://github.com/bahmutov/next-ver)
 
+[![Build status][ci-image] ][ci-url]
+
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2016
@@ -43,3 +45,6 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+[ci-image]: https://travis-ci.org/bahmutov/next-ver-test.svg?branch=master
+[ci-url]: https://travis-ci.org/bahmutov/next-ver-test

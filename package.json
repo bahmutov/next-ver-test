@@ -1,7 +1,7 @@
 {
   "name": "next-ver-test",
-  "description": "Test project for tool next-ver",
   "version": "1.0.0",
+  "description": "Test project for tool next-ver",
   "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
   "bugs": "https://github.com/bahmutov/next-ver-test/issues",
   "config": {
@@ -56,7 +56,8 @@
     "secure": "nsp check",
     "size": "t=\"$(npm pack .)\"; wc -c \"${t}\"; tar tvf \"${t}\"; rm \"${t}\";",
     "test": "npm run unit",
-    "unit": "mocha src/*-spec.js"
+    "unit": "mocha src/*-spec.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
     "ban-sensitive-files": "1.8.4",
@@ -67,6 +68,7 @@
     "mocha": "3.2.0",
     "nsp": "2.6.2",
     "pre-git": "3.11.1",
-    "standard": "8.6.0"
+    "standard": "8.6.0",
+    "semantic-release": "^6.3.2"
   }
 }
